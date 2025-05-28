@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scholarship Application Form</title>
+<style>
+
+body {
+font-family: Arial, sans-serif;
+background-color:black;
+}
+
+.container {
+width: 60%;
+margin: 20px auto;
+padding: 70px;
+background-color:lightgrey;
+border: 2px solid #ddd;
+border-radius: 80px;
+
+box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+text-align: center;
+color:blue;
+border-radius:20px;
+}
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+input, select, textarea {
+width: 80%;
+padding: 5px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 20px;
+}
+
+button {
+margin-top: 20px;
+padding: 10px 20px;
+background-color:black;
+color: white;
+border: none;
+border-radius: 200px;
+cursor: pointer;
+text-align:center;
+
+
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<center><img src="C:\Users\aksha\Downloads/Screenshot_18-5-2025_81049_www.bing.com.jpeg" height="80" width="80"></center>
+
+<h2>Scholarship Application </h2>
+
+<form action="/submit" method="post" enctype="multipart/form-data>
+
+<label for="fullName">Full Name</label>
+<input type="text" id="fullName" name="fullName" required>
+
+<label for="dob">Date of Birth</label>
+<input type="date" id="dob" name="dob" required>
+
+
+
+<label for="gender">Gender</label>
+<select id="gender" name="gender" required>
+<option value="">Select</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select>
+
+<label for="marks">10th / Equivalent percentage</label>
+<select id="marks" name="marks" required>
+<option value="">Select</option>
+<option value="85">Above 85%</option>
+<option value="70">Above 70%</option>
+<option value="45">Above 45%</option>
+<option value="33">Just Pass</option>
+</select>
+
+<label for="marks">12th / Equivalent percentage</label>
+<select id="marks" name="marks" required>
+<option value="">Select</option>
+<option value="85">Above 85%</option>
+<option value="70">Above 70%</option>
+<option value="45">Above 45%</option>
+<option value="33">Just Pass</option>
+</select>
+
+
+<label for="education"> Present Course / branch </label>
+<input type="text" id="education" name="education" required>
+
+<label for="year"> Present year with SEM</label>
+<input type="text" id="year" name="year" required>
+
+<label for="USEN">UNIVERSITY (USEN)</label>
+<input type="usen" id="usen" name="usen" required>
+
+<label for="cgpa">CGPA / Percentage till last sem</label>
+<input type="text" id="cgpa" name="cgpa" placeholder="If 1st sem mention not avalable"required>
+
+<label for="income">Family Income</label>
+<input type="text" id="income" name="income" placeholder="MENTION PER YEAR" required>
+
+<label for="caste"> Caste </label>
+<select id="caste" name="caste" required>
+<option value="">Select</option>
+<option value="OBC">OBC</option>
+<option value="GENERAL">GENERAL</option>
+<option value="SC">SC</option>
+<option value="ST">ST</option>
+<option value="EWS">EWS</option>
+</select>
+
+
+<label for="statement">Statement of Purpose</label>
+<textarea id="statement" name="statement" rows="5" required></textarea>
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phone" required>
+
+<label for="address">Address</label>
+<textarea id="address" name="address" rows="3" required></textarea>
+<label for="nationality">Nationality</label>
+<input type="text" id="nationality" name="nationality" required>
+<center><button type="submit">GO TO DOCUMENTS UPLOAD PAGE</button></center>
+
+</form>
+</div>
+</body>
+</html>
